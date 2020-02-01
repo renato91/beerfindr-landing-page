@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-header {
+  padding: 24px;
+  background-color: #1ba795;
+  border-bottom: 2px solid #85e8da;
+}
+
+.main-title,
+.main-subtitle {
+  color: #ffffff;
+}
+
+.newsletter-wrapper {
+  height: 360px;
+  width: 100%;
+  display: block;
+  background-image: url("../img/banner-beer-background.jpeg");
+  background-attachment: fixed;
+  position: relative;
+}
+
+.newsletter-form-wrapper {
+  width: 100%;
+  max-width: 420px;
+  padding: 16px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -33px;
+  margin-left: -210px;
+}
+
+.newsletter-input {
+  height: 26px;
+  width: calc(80% - 8px);
+  color: #1ba795;
+  font-size: 18px;
+}
+
+.newsletter-button {
+  height: 26px;
+  width: calc(20% - 8px);
+  background-color: #1ba795;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 18px;
+}
