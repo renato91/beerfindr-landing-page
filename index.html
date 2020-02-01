@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Beerfindr</title>
-    <link href="assets/styles.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
+
+    <script>
+      function enviarDados() {
+          alert(document.getElementsByClassName("newsletter-input")[0].value);
+      }
+    </script>
   </head>
 
   <body>
@@ -13,5 +19,11 @@
       </h1>
       <h3 class="main-subtitle">Site de cervejas</h3>
     </header>
+    <div class="newsletter-wrapper">
+      <div class="newsletter-form-wrapper">
+        <input type="text" class="newsletter-input" />
+        <button type="button" class="newsletter-button" onclick="enviarDados()">Assine</button>
+      </div>
+    </div>
   </body>
 </html>
